@@ -5,8 +5,11 @@ Define RADIUS Server Objects to be reused across an organization's SSIDs.
 # Table of Contents
 
 [Introduction](#intro)
+
 [Prerequisites](#prereq)
+
 [How to Use](#howtouse)
+
 
 <a id="intro"></a>
 
