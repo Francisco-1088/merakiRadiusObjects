@@ -51,7 +51,7 @@ This tool allows creating a configuration file with a list of SSIDs that need 80
 
 ![image alt text](images/target_networks.png)
 
-![image alt text](images/tags.png)
+![image alt text](images/tag_networks.png)
 
 * For each RADIUS authentication server you need to use, create an entry in the form `[radius_auth_X]`, where `X` is a unique number (you can reuse the existing 3 in the sample file, and remove any unneeded ones). You may define as many as you need. Each of these must have an entry for `host`, which should be an IPv4 address, `secret` and `port`
 
