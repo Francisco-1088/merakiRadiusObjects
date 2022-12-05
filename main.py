@@ -52,7 +52,7 @@ for section_name in parser.sections():
         }
         ssids.append(ssid)
 
-dashboard = meraki.DashboardAPI(api_key=parser.get('credentials','api_key'), log_path='./logs')
+dashboard = meraki.DashboardAPI(api_key=parser.get('credentials','api_key'))
 
 if parser.get('target_networks', 'single_network') == "True":
     networks = dashboard.organizations.getOrganizationNetworks(organizationId=parser.get('credentials', 'org_id'))
