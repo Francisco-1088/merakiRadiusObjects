@@ -44,7 +44,7 @@ for section_name in parser.sections():
             print("If acct_enabled is set to True, acct_preference must not be set to None.")
             exit()
         ssid = {
-            "name": section_name,
+            "name": parser.get(section_name, 'name'),
             "auth_enabled": parser.get(section_name, 'auth_enabled'),
             "auth_preference": parser.get(section_name, 'auth_preference').split(", "),
             "acct_enabled": parser.get(section_name, 'acct_enabled'),
